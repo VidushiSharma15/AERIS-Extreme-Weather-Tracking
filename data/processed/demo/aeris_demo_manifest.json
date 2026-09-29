@@ -1,0 +1,88 @@
+{
+  "demo_id": "AERIS_DEMO_CYCLONE_AMPHAN_2020",
+  "case_study": "Cyclone Amphan 2020 (Bay of Bengal)",
+  "initialization_time": "2020-05-17T00:00:00Z",
+  "dataset_metadata": {
+    "dataset_name": "aeris_amphan_2020_multimodel_consensus",
+    "primary_forecast_mode": "Multi-Model Consensus (NCMRWF + ECMWF IFS)",
+    "contributing_independent_models": [
+      "NCMRWF / NEPS-G",
+      "ECMWF IFS"
+    ],
+    "independent_models_count": 2,
+    "ncmrwf_ensemble_members_count": 12,
+    "raw_grib2_path": "D:\\SIH26078_AERIS\\data\\raw\\nepsg\\nepsg_amphan_2020.grib2",
+    "raw_era5_path": "D:\\SIH26078_AERIS\\data\\raw\\era5_amphan_2020.nc",
+    "common_analysis_grid": "83 x 125 regular lat-lon",
+    "native_resolution": "0.5\u00b0 (~55 km)",
+    "domain": "10\u201325\u00b0N, 80\u201395\u00b0E (Bay of Bengal)",
+    "lead_times_hours": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60,
+      66,
+      72
+    ],
+    "real_forecast_horizon_hours": 72,
+    "max_supported_architecture_horizon_hours": 240
+  },
+  "spherical_gnn": {
+    "nodes": 10375,
+    "edges": 41500,
+    "architecture": "WeatherGNNPredictor (SphericalGraphConv, LayerNorm, GELU)",
+    "event_embedding_dimension": 64,
+    "embedding_file": "D:\\SIH26078_AERIS\\data\\processed\\nepsg_amphan_gnn_embeddings.pt"
+  },
+  "tracking_results": {
+    "detected_event_centroids": 13,
+    "total_trajectory_displacement_km": 0.0,
+    "peak_intensity_step": "66h (915.5 hPa min MSL, 56.68 m/s max wind)",
+    "events_json_path": "D:\\SIH26078_AERIS\\data\\processed\\nepsg_amphan_events.json",
+    "events_geojson_path": "D:\\SIH26078_AERIS\\data\\processed\\nepsg_amphan_events.geojson",
+    "trajectories_geojson_path": "D:\\SIH26078_AERIS\\data\\processed\\nepsg_amphan_trajectories.geojson"
+  },
+  "conditional_diffusion_downscaling": {
+    "mode": "trained research prototype",
+    "target_resolution": "0.1\u00b0 (~10 km / 5 km prototype research grid)",
+    "spatial_dimensions": [
+      64,
+      64
+    ],
+    "baseline_method": "Bilinear spatial regridding",
+    "reference_dataset": "ERA5 Reanalysis (0.25\u00b0)",
+    "downscaled_nc_path": "D:\\SIH26078_AERIS\\data\\processed\\nepsg_amphan_downscaled_diffusion.nc",
+    "downscaled_summary_path": "D:\\SIH26078_AERIS\\data\\processed\\nepsg_amphan_downscaling_summary.json"
+  },
+  "api_endpoints": [
+    "/health",
+    "/api/v1/metadata",
+    "/api/v1/forecast/nepsg/amphan",
+    "/api/v1/events/geojson",
+    "/api/v1/tracks/geojson",
+    "/api/v1/downscaling/status",
+    "/api/v1/downscaling/nepsg/amphan",
+    "/api/v1/downscale/nepsg",
+    "/api/v1/demo/manifest",
+    "/api/v1/demo/status"
+  ],
+  "system_status": {
+    "data_ingestion": "PASS",
+    "spherical_gnn": "PASS",
+    "spatio_temporal_tracking": "PASS",
+    "conditional_diffusion": "PASS",
+    "api_service": "PASS",
+    "gis_dashboard": "PASS",
+    "overall": "COMPLETE"
+  },
+  "processing_time_seconds": 15.12,
+  "timestamp": "2026-09-29T07:40:39.677530+00:00",
+  "disclaimer": "AERIS SIH Demonstration Prototype \u2014 Real NCMRWF/TIGGE forecast development slice. Not an operational public weather warning."
+}

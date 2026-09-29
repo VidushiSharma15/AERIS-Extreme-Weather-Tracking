@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "name": "AERIS_Cyclone_Amphan_MultiModel_Trajectories",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.88,
+            2.47
+          ],
+          [
+            84.79,
+            3.07
+          ],
+          [
+            85.03,
+            3.67
+          ],
+          [
+            90.31,
+            4.57
+          ],
+          [
+            85.51,
+            4.87
+          ],
+          [
+            85.51,
+            4.87
+          ],
+          [
+            86.47,
+            7.87
+          ],
+          [
+            86.71,
+            12.67
+          ],
+          [
+            86.83,
+            13.26
+          ],
+          [
+            86.95,
+            13.86
+          ],
+          [
+            87.07,
+            14.16
+          ],
+          [
+            87.19,
+            14.76
+          ],
+          [
+            87.19,
+            15.36
+          ]
+        ]
+      },
+      "properties": {
+        "trajectory_id": "AERIS_AMPHAN_MULTIMODEL_CONSENSUS_TRACK",
+        "initialization_time": "2020-05-17T00:00:00Z",
+        "total_lead_hours": 72,
+        "total_distance_km": 3511.23,
+        "start_location": [
+          2.47,
+          94.88
+        ],
+        "end_location": [
+          15.36,
+          87.19
+        ],
+        "primary_mode": "Multi-Model Consensus (NCMRWF + ECMWF IFS)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.88,
+            2.47
+          ],
+          [
+            84.79,
+            3.07
+          ],
+          [
+            85.03,
+            3.67
+          ],
+          [
+            90.31,
+            4.57
+          ],
+          [
+            90.67,
+            5.77
+          ],
+          [
+            85.99,
+            6.67
+          ],
+          [
+            86.35,
+            7.87
+          ],
+          [
+            91.88,
+            9.37
+          ],
+          [
+            87.55,
+            10.87
+          ],
+          [
+            88.15,
+            12.67
+          ],
+          [
+            88.75,
+            14.46
+          ],
+          [
+            89.23,
+            16.26
+          ],
+          [
+            95.0,
+            18.36
+          ]
+        ]
+      },
+      "properties": {
+        "trajectory_id": "AERIS_AMPHAN_NCMRWF_TRACK",
+        "model_name": "NCMRWF",
+        "layer_type": "independent_model_track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ],
+          [
+            80.1,
+            4.87
+          ]
+        ]
+      },
+      "properties": {
+        "trajectory_id": "AERIS_AMPHAN_ECMWF_IFS_TRACK",
+        "model_name": "ECMWF_IFS",
+        "layer_type": "independent_model_track"
+      }
+    }
+  ]
+}

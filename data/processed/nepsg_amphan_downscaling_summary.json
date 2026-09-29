@@ -1,0 +1,89 @@
+{
+  "pipeline": "AERIS Phase 13 Conditional Diffusion Downscaling",
+  "mode": "trained research prototype",
+  "native_forecast_input": {
+    "dataset": "NCMRWF/TIGGE (dems)",
+    "file": "nepsg_amphan_2020.grib2",
+    "native_grid": "83 x 125 regular lat-lon",
+    "native_resolution": "0.5\u00b0 (~55 km)",
+    "ensemble_members": 12,
+    "case": "Cyclone Amphan 2020",
+    "initialization": "2020-05-17 00:00 UTC"
+  },
+  "target_output_grid": {
+    "grid_name": "5 km prototype output grid",
+    "grid_resolution": "0.1\u00b0 (~10 km / 5 km prototype research grid)",
+    "spatial_dimensions": [
+      64,
+      64
+    ],
+    "crop_bounding_box": {
+      "min_lat": 10.16,
+      "max_lat": 18.16,
+      "min_lon": 83.07,
+      "max_lon": 91.07
+    },
+    "peak_lead_time_h": 60
+  },
+  "conditioning": {
+    "ncmrwf_tigge_fields": [
+      "mean_sea_level_pressure",
+      "wind_speed"
+    ],
+    "ensemble_mean": true,
+    "ensemble_spread": true,
+    "gnn_event_embedding": "64-dim (Phase 12, shape [13, 64])",
+    "lead_time_h": 60,
+    "cyclone_centroid": {
+      "latitude": 14.16,
+      "longitude": 87.07
+    }
+  },
+  "diffusion_model": {
+    "architecture": "ConditionalWeatherUNet (DDPM)",
+    "checkpoint_loaded": true,
+    "checkpoint_path": "D:\\SIH26078_AERIS\\models\\diffusion_best.pt",
+    "sampling_steps": 50,
+    "compute_device": "cpu",
+    "physics_informed_loss": {
+      "lambda_reconstruction": 1.0,
+      "lambda_extreme": 0.1,
+      "lambda_physics": 0.05
+    }
+  },
+  "reference_data": {
+    "source": "not available",
+    "available": false
+  },
+  "extreme_amplitude_comparison": {
+    "coarse_tigge_0_5deg": {
+      "min_msl_hpa": 0.0,
+      "max_msl_hpa": 0.0,
+      "mean_msl_hpa": 0.0,
+      "p95_msl_hpa": 0.0,
+      "p99_msl_hpa": 0.0
+    },
+    "bilinear_baseline_0_1deg": {
+      "min_msl_hpa": 0.0,
+      "max_msl_hpa": 0.0,
+      "mean_msl_hpa": 0.0,
+      "peak_preservation_score": 1.0
+    },
+    "diffusion_prototype_0_1deg": {
+      "min_msl_hpa": 0.0,
+      "max_msl_hpa": 0.0,
+      "mean_msl_hpa": 0.0,
+      "p95_msl_hpa": 0.0,
+      "p99_msl_hpa": 0.0,
+      "peak_preservation_score": 1.0
+    }
+  },
+  "scientific_limitations": [
+    "Native retrieved TIGGE forecast resolution is 0.5\u00b0 (not 12 km).",
+    "Output grid is a 5 km prototype output grid for localized research downscaling demonstration.",
+    "This is a conditional diffusion research prototype and does not establish operational forecast skill.",
+    "Zero synthetic labels or weather fabrications were introduced.",
+    "Evaluated against ERA5 reanalysis reference field where locally available."
+  ],
+  "disclaimer": "Prototype downscaling \u2014 research downscaling pipeline; not operational forecast skill validation."
+}

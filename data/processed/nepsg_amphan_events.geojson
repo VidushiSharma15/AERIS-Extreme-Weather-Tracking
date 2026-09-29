@@ -1,0 +1,1332 @@
+{
+  "type": "FeatureCollection",
+  "name": "AERIS_Cyclone_Amphan_MultiModel_Consensus_Events",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -1.879
+            ],
+            [
+              102.45,
+              -1.879
+            ],
+            [
+              102.45,
+              7.117
+            ],
+            [
+              72.65,
+              7.117
+            ],
+            [
+              72.65,
+              -1.879
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_00H",
+        "lead_time_hour": 0,
+        "timestamp": "2020-05-17T00:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Cyclonic Storm / Deep Depression",
+        "area_km2": 2024823.5,
+        "max_z_score": 6.56,
+        "min_msl_hpa": 985.2,
+        "max_wind_speed_ms": 22.24,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.88,
+          2.47
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_00H",
+        "lead_time_hour": 0,
+        "timestamp": "2020-05-17T00:00:00Z",
+        "latitude": 2.47,
+        "longitude": 94.88,
+        "min_msl_hpa": 985.2,
+        "max_wind_speed_ms": 22.24,
+        "max_tp_mm": 451.85,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Cyclonic Storm / Deep Depression",
+        "area_km2": 2024823.5,
+        "max_z_score": 6.56,
+        "mean_z_score": 4.92,
+        "affected_grid_cells": 658,
+        "bounding_box": {
+          "min_lat": -1.88,
+          "max_lat": 7.12,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -1.879
+            ],
+            [
+              102.45,
+              -1.879
+            ],
+            [
+              102.45,
+              7.117
+            ],
+            [
+              72.65,
+              7.117
+            ],
+            [
+              72.65,
+              -1.879
+            ]
+          ]
+        ],
+        "step_displacement_km": 0.0,
+        "speed_kmh": 0.0,
+        "bearing_deg": 0.0,
+        "cumulative_distance_km": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -1.879
+            ],
+            [
+              102.45,
+              -1.879
+            ],
+            [
+              102.45,
+              7.117
+            ],
+            [
+              72.65,
+              7.117
+            ],
+            [
+              72.65,
+              -1.879
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_06H",
+        "lead_time_hour": 6,
+        "timestamp": "2020-05-17T06:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1624443.3,
+        "max_z_score": 6.82,
+        "min_msl_hpa": 984.1,
+        "max_wind_speed_ms": 19.92,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.79,
+          3.07
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_06H",
+        "lead_time_hour": 6,
+        "timestamp": "2020-05-17T06:00:00Z",
+        "latitude": 3.07,
+        "longitude": 84.79,
+        "min_msl_hpa": 984.1,
+        "max_wind_speed_ms": 19.92,
+        "max_tp_mm": 0.0,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1624443.3,
+        "max_z_score": 6.82,
+        "mean_z_score": 5.12,
+        "affected_grid_cells": 528,
+        "bounding_box": {
+          "min_lat": -1.88,
+          "max_lat": 7.12,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -1.879
+            ],
+            [
+              102.45,
+              -1.879
+            ],
+            [
+              102.45,
+              7.117
+            ],
+            [
+              72.65,
+              7.117
+            ],
+            [
+              72.65,
+              -1.879
+            ]
+          ]
+        ],
+        "step_displacement_km": 1122.62,
+        "speed_kmh": 187.1,
+        "bearing_deg": 273.6,
+        "cumulative_distance_km": 1122.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -1.429
+            ],
+            [
+              102.45,
+              -1.429
+            ],
+            [
+              102.45,
+              6.967
+            ],
+            [
+              72.65,
+              6.967
+            ],
+            [
+              72.65,
+              -1.429
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_12H",
+        "lead_time_hour": 12,
+        "timestamp": "2020-05-17T12:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1254855.0,
+        "max_z_score": 6.51,
+        "min_msl_hpa": 980.5,
+        "max_wind_speed_ms": 22.3,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.03,
+          3.67
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_12H",
+        "lead_time_hour": 12,
+        "timestamp": "2020-05-17T12:00:00Z",
+        "latitude": 3.67,
+        "longitude": 85.03,
+        "min_msl_hpa": 980.5,
+        "max_wind_speed_ms": 22.3,
+        "max_tp_mm": 0.0,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1254855.0,
+        "max_z_score": 6.51,
+        "mean_z_score": 4.88,
+        "affected_grid_cells": 408,
+        "bounding_box": {
+          "min_lat": -1.43,
+          "max_lat": 6.97,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -1.429
+            ],
+            [
+              102.45,
+              -1.429
+            ],
+            [
+              102.45,
+              6.967
+            ],
+            [
+              72.65,
+              6.967
+            ],
+            [
+              72.65,
+              -1.429
+            ]
+          ]
+        ],
+        "step_displacement_km": 71.84,
+        "speed_kmh": 11.97,
+        "bearing_deg": 21.8,
+        "cumulative_distance_km": 1194.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -0.979
+            ],
+            [
+              102.45,
+              -0.979
+            ],
+            [
+              102.45,
+              6.817
+            ],
+            [
+              72.65,
+              6.817
+            ],
+            [
+              72.65,
+              -0.979
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_18H",
+        "lead_time_hour": 18,
+        "timestamp": "2020-05-17T18:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1184048.3,
+        "max_z_score": 7.03,
+        "min_msl_hpa": 978.7,
+        "max_wind_speed_ms": 22.6,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.31,
+          4.57
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_18H",
+        "lead_time_hour": 18,
+        "timestamp": "2020-05-17T18:00:00Z",
+        "latitude": 4.57,
+        "longitude": 90.31,
+        "min_msl_hpa": 978.7,
+        "max_wind_speed_ms": 22.6,
+        "max_tp_mm": 0.0,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1184048.3,
+        "max_z_score": 7.03,
+        "mean_z_score": 5.27,
+        "affected_grid_cells": 385,
+        "bounding_box": {
+          "min_lat": -0.98,
+          "max_lat": 6.82,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -0.979
+            ],
+            [
+              102.45,
+              -0.979
+            ],
+            [
+              102.45,
+              6.817
+            ],
+            [
+              72.65,
+              6.817
+            ],
+            [
+              72.65,
+              -0.979
+            ]
+          ]
+        ],
+        "step_displacement_km": 594.07,
+        "speed_kmh": 99.01,
+        "bearing_deg": 80.1,
+        "cumulative_distance_km": 1788.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -3.378
+            ],
+            [
+              102.45,
+              -3.378
+            ],
+            [
+              102.45,
+              16.413
+            ],
+            [
+              72.65,
+              16.413
+            ],
+            [
+              72.65,
+              -3.378
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_24H",
+        "lead_time_hour": 24,
+        "timestamp": "2020-05-17T24:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1502813.4,
+        "max_z_score": 6.83,
+        "min_msl_hpa": 976.7,
+        "max_wind_speed_ms": 24.77,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.51,
+          4.87
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_24H",
+        "lead_time_hour": 24,
+        "timestamp": "2020-05-17T24:00:00Z",
+        "latitude": 4.87,
+        "longitude": 85.51,
+        "min_msl_hpa": 976.7,
+        "max_wind_speed_ms": 24.77,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1502813.4,
+        "max_z_score": 6.83,
+        "mean_z_score": 5.12,
+        "affected_grid_cells": 489,
+        "bounding_box": {
+          "min_lat": -3.38,
+          "max_lat": 16.41,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -3.378
+            ],
+            [
+              102.45,
+              -3.378
+            ],
+            [
+              102.45,
+              16.413
+            ],
+            [
+              72.65,
+              16.413
+            ],
+            [
+              72.65,
+              -3.378
+            ]
+          ]
+        ],
+        "step_displacement_km": 532.97,
+        "speed_kmh": 88.83,
+        "bearing_deg": 273.8,
+        "cumulative_distance_km": 2321.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -5.478
+            ],
+            [
+              102.45,
+              -5.478
+            ],
+            [
+              102.45,
+              17.913
+            ],
+            [
+              72.65,
+              17.913
+            ],
+            [
+              72.65,
+              -5.478
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_30H",
+        "lead_time_hour": 30,
+        "timestamp": "2020-05-17T30:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 3420869.0,
+        "max_z_score": 5.76,
+        "min_msl_hpa": 984.0,
+        "max_wind_speed_ms": 26.18,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.51,
+          4.87
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_30H",
+        "lead_time_hour": 30,
+        "timestamp": "2020-05-17T30:00:00Z",
+        "latitude": 4.87,
+        "longitude": 85.51,
+        "min_msl_hpa": 984.0,
+        "max_wind_speed_ms": 26.18,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 3420869.0,
+        "max_z_score": 5.76,
+        "mean_z_score": 4.32,
+        "affected_grid_cells": 1114,
+        "bounding_box": {
+          "min_lat": -5.48,
+          "max_lat": 17.91,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -5.478
+            ],
+            [
+              102.45,
+              -5.478
+            ],
+            [
+              102.45,
+              17.913
+            ],
+            [
+              72.65,
+              17.913
+            ],
+            [
+              72.65,
+              -5.478
+            ]
+          ]
+        ],
+        "step_displacement_km": 0.0,
+        "speed_kmh": 0.0,
+        "bearing_deg": 0.0,
+        "cumulative_distance_km": 2321.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -9.226
+            ],
+            [
+              102.45,
+              -9.226
+            ],
+            [
+              102.45,
+              29.158
+            ],
+            [
+              72.65,
+              29.158
+            ],
+            [
+              72.65,
+              -9.226
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_36H",
+        "lead_time_hour": 36,
+        "timestamp": "2020-05-17T36:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Cyclonic Storm / Deep Depression",
+        "area_km2": 10700097.6,
+        "max_z_score": 4.41,
+        "min_msl_hpa": 987.7,
+        "max_wind_speed_ms": 23.5,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.47,
+          7.87
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_36H",
+        "lead_time_hour": 36,
+        "timestamp": "2020-05-17T36:00:00Z",
+        "latitude": 7.87,
+        "longitude": 86.47,
+        "min_msl_hpa": 987.7,
+        "max_wind_speed_ms": 23.5,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Cyclonic Storm / Deep Depression",
+        "area_km2": 10700097.6,
+        "max_z_score": 4.41,
+        "mean_z_score": 3.31,
+        "affected_grid_cells": 3491,
+        "bounding_box": {
+          "min_lat": -9.23,
+          "max_lat": 29.16,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -9.226
+            ],
+            [
+              102.45,
+              -9.226
+            ],
+            [
+              102.45,
+              29.158
+            ],
+            [
+              72.65,
+              29.158
+            ],
+            [
+              72.65,
+              -9.226
+            ]
+          ]
+        ],
+        "step_displacement_km": 350.04,
+        "speed_kmh": 58.34,
+        "bearing_deg": 17.6,
+        "cumulative_distance_km": 2671.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              -2.329
+            ],
+            [
+              102.45,
+              -2.329
+            ],
+            [
+              102.45,
+              19.262
+            ],
+            [
+              72.65,
+              19.262
+            ],
+            [
+              72.65,
+              -2.329
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_42H",
+        "lead_time_hour": 42,
+        "timestamp": "2020-05-17T42:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 2069177.5,
+        "max_z_score": 6.69,
+        "min_msl_hpa": 981.8,
+        "max_wind_speed_ms": 26.08,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.71,
+          12.67
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_42H",
+        "lead_time_hour": 42,
+        "timestamp": "2020-05-17T42:00:00Z",
+        "latitude": 12.67,
+        "longitude": 86.71,
+        "min_msl_hpa": 981.8,
+        "max_wind_speed_ms": 26.08,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 2069177.5,
+        "max_z_score": 6.69,
+        "mean_z_score": 5.02,
+        "affected_grid_cells": 679,
+        "bounding_box": {
+          "min_lat": -2.33,
+          "max_lat": 19.26,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              -2.329
+            ],
+            [
+              102.45,
+              -2.329
+            ],
+            [
+              102.45,
+              19.262
+            ],
+            [
+              72.65,
+              19.262
+            ],
+            [
+              72.65,
+              -2.329
+            ]
+          ]
+        ],
+        "step_displacement_km": 534.38,
+        "speed_kmh": 89.06,
+        "bearing_deg": 2.8,
+        "cumulative_distance_km": 3205.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.633,
+              -0.83
+            ],
+            [
+              100.347,
+              -0.83
+            ],
+            [
+              100.347,
+              19.562
+            ],
+            [
+              74.633,
+              19.562
+            ],
+            [
+              74.633,
+              -0.83
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_48H",
+        "lead_time_hour": 48,
+        "timestamp": "2020-05-17T48:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1533012.6,
+        "max_z_score": 7.25,
+        "min_msl_hpa": 977.8,
+        "max_wind_speed_ms": 29.78,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.83,
+          13.26
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_48H",
+        "lead_time_hour": 48,
+        "timestamp": "2020-05-17T48:00:00Z",
+        "latitude": 13.26,
+        "longitude": 86.83,
+        "min_msl_hpa": 977.8,
+        "max_wind_speed_ms": 29.78,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1533012.6,
+        "max_z_score": 7.25,
+        "mean_z_score": 5.44,
+        "affected_grid_cells": 507,
+        "bounding_box": {
+          "min_lat": -0.83,
+          "max_lat": 19.56,
+          "min_lon": 74.63,
+          "max_lon": 100.35
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              74.633,
+              -0.83
+            ],
+            [
+              100.347,
+              -0.83
+            ],
+            [
+              100.347,
+              19.562
+            ],
+            [
+              74.633,
+              19.562
+            ],
+            [
+              74.633,
+              -0.83
+            ]
+          ]
+        ],
+        "step_displacement_km": 66.88,
+        "speed_kmh": 11.15,
+        "bearing_deg": 11.2,
+        "cumulative_distance_km": 3272.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.173,
+              7.417
+            ],
+            [
+              101.128,
+              7.417
+            ],
+            [
+              101.128,
+              17.613
+            ],
+            [
+              75.173,
+              17.613
+            ],
+            [
+              75.173,
+              7.417
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_54H",
+        "lead_time_hour": 54,
+        "timestamp": "2020-05-17T54:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1519540.5,
+        "max_z_score": 8.1,
+        "min_msl_hpa": 977.1,
+        "max_wind_speed_ms": 33.09,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.95,
+          13.86
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_54H",
+        "lead_time_hour": 54,
+        "timestamp": "2020-05-17T54:00:00Z",
+        "latitude": 13.86,
+        "longitude": 86.95,
+        "min_msl_hpa": 977.1,
+        "max_wind_speed_ms": 33.09,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1519540.5,
+        "max_z_score": 8.1,
+        "mean_z_score": 6.07,
+        "affected_grid_cells": 506,
+        "bounding_box": {
+          "min_lat": 7.42,
+          "max_lat": 17.61,
+          "min_lon": 75.17,
+          "max_lon": 101.13
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              75.173,
+              7.417
+            ],
+            [
+              101.128,
+              7.417
+            ],
+            [
+              101.128,
+              17.613
+            ],
+            [
+              75.173,
+              17.613
+            ],
+            [
+              75.173,
+              7.417
+            ]
+          ]
+        ],
+        "step_displacement_km": 67.97,
+        "speed_kmh": 11.33,
+        "bearing_deg": 11.0,
+        "cumulative_distance_km": 3340.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              8.467
+            ],
+            [
+              102.45,
+              8.467
+            ],
+            [
+              102.45,
+              19.262
+            ],
+            [
+              72.65,
+              19.262
+            ],
+            [
+              72.65,
+              8.467
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_60H",
+        "lead_time_hour": 60,
+        "timestamp": "2020-05-17T60:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1803433.9,
+        "max_z_score": 7.65,
+        "min_msl_hpa": 977.2,
+        "max_wind_speed_ms": 33.99,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.07,
+          14.16
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_60H",
+        "lead_time_hour": 60,
+        "timestamp": "2020-05-17T60:00:00Z",
+        "latitude": 14.16,
+        "longitude": 87.07,
+        "min_msl_hpa": 977.2,
+        "max_wind_speed_ms": 33.99,
+        "max_tp_mm": 0.01,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1803433.9,
+        "max_z_score": 7.65,
+        "mean_z_score": 5.74,
+        "affected_grid_cells": 604,
+        "bounding_box": {
+          "min_lat": 8.47,
+          "max_lat": 19.26,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              8.467
+            ],
+            [
+              102.45,
+              8.467
+            ],
+            [
+              102.45,
+              19.262
+            ],
+            [
+              72.65,
+              19.262
+            ],
+            [
+              72.65,
+              8.467
+            ]
+          ]
+        ],
+        "step_displacement_km": 35.78,
+        "speed_kmh": 5.96,
+        "bearing_deg": 21.2,
+        "cumulative_distance_km": 3376.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              10.116
+            ],
+            [
+              102.45,
+              10.116
+            ],
+            [
+              102.45,
+              21.511
+            ],
+            [
+              72.65,
+              21.511
+            ],
+            [
+              72.65,
+              10.116
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_66H",
+        "lead_time_hour": 66,
+        "timestamp": "2020-05-17T66:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1621283.9,
+        "max_z_score": 9.15,
+        "min_msl_hpa": 973.7,
+        "max_wind_speed_ms": 33.79,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.19,
+          14.76
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_66H",
+        "lead_time_hour": 66,
+        "timestamp": "2020-05-17T66:00:00Z",
+        "latitude": 14.76,
+        "longitude": 87.19,
+        "min_msl_hpa": 973.7,
+        "max_wind_speed_ms": 33.79,
+        "max_tp_mm": 0.02,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1621283.9,
+        "max_z_score": 9.15,
+        "mean_z_score": 6.86,
+        "affected_grid_cells": 547,
+        "bounding_box": {
+          "min_lat": 10.12,
+          "max_lat": 21.51,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              10.116
+            ],
+            [
+              102.45,
+              10.116
+            ],
+            [
+              102.45,
+              21.511
+            ],
+            [
+              72.65,
+              21.511
+            ],
+            [
+              72.65,
+              10.116
+            ]
+          ]
+        ],
+        "step_displacement_km": 67.96,
+        "speed_kmh": 11.33,
+        "bearing_deg": 10.9,
+        "cumulative_distance_km": 3444.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              10.566
+            ],
+            [
+              102.45,
+              10.566
+            ],
+            [
+              102.45,
+              23.76
+            ],
+            [
+              72.65,
+              23.76
+            ],
+            [
+              72.65,
+              10.566
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_72H",
+        "lead_time_hour": 72,
+        "timestamp": "2020-05-17T72:00:00Z",
+        "layer_type": "event_footprint",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1457257.4,
+        "max_z_score": 9.55,
+        "min_msl_hpa": 974.3,
+        "max_wind_speed_ms": 33.94,
+        "model_consensus": "NCMRWF + ECMWF IFS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.19,
+          15.36
+        ]
+      },
+      "properties": {
+        "event_id": "AERIS_NCMRWF_AMPHAN_STEP_72H",
+        "lead_time_hour": 72,
+        "timestamp": "2020-05-17T72:00:00Z",
+        "latitude": 15.36,
+        "longitude": 87.19,
+        "min_msl_hpa": 974.3,
+        "max_wind_speed_ms": 33.94,
+        "max_tp_mm": 0.02,
+        "model_consensus": "NCMRWF + ECMWF IFS",
+        "severity": "Severe Cyclonic Storm",
+        "area_km2": 1457257.4,
+        "max_z_score": 9.55,
+        "mean_z_score": 7.16,
+        "affected_grid_cells": 495,
+        "bounding_box": {
+          "min_lat": 10.57,
+          "max_lat": 23.76,
+          "min_lon": 72.65,
+          "max_lon": 102.45
+        },
+        "footprint_polygon_coords": [
+          [
+            [
+              72.65,
+              10.566
+            ],
+            [
+              102.45,
+              10.566
+            ],
+            [
+              102.45,
+              23.76
+            ],
+            [
+              72.65,
+              23.76
+            ],
+            [
+              72.65,
+              10.566
+            ]
+          ]
+        ],
+        "step_displacement_km": 66.72,
+        "speed_kmh": 11.12,
+        "bearing_deg": 0.0,
+        "cumulative_distance_km": 3511.23
+      }
+    }
+  ]
+}

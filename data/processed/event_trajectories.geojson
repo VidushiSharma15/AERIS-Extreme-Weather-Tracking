@@ -1,0 +1,541 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "system": "SIH26078 AERIS Spatio-Temporal Tracking Engine",
+    "total_tracks": 11
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_001",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.0417,
+            10.3333
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_001",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T00:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0417,
+          10.3333
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_001",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_002",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.75,
+            9.5
+          ],
+          [
+            92.75,
+            8.0
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_002",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T04:00:00.000000000",
+        "total_displacement_km": 275.92,
+        "bearing_degrees": 232.96,
+        "speed_kmh": 68.98,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.75,
+          8.0
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_002",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": -2.2361,
+        "speed_kmh": 68.98,
+        "bearing_degrees": 232.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_003",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.25,
+            14.75
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_003",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T00:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.25,
+          14.75
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_003",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_004",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            70.5,
+            17.25
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_004",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T00:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.5,
+          17.25
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_004",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_005",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            70.5,
+            23.0
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_005",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T00:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.5,
+          23.0
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_005",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_006",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.0,
+            24.75
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_006",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T00:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.0,
+          24.75
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_006",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_007",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.5,
+            30.5
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_007",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T00:00:00.000000000",
+        "end_time": "2026-09-25T00:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5,
+          30.5
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_007",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_008",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            93.2319,
+            33.383
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_008",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T04:00:00.000000000",
+        "end_time": "2026-09-25T04:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.2319,
+          33.383
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_008",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_009",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.1303,
+            34.7632
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_009",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T04:00:00.000000000",
+        "end_time": "2026-09-25T04:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.1303,
+          34.7632
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_009",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_010",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.5,
+            35.5
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_010",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T04:00:00.000000000",
+        "end_time": "2026-09-25T04:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5,
+          35.5
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_010",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_LINE_TRK_10M_WIND_SPEED_011",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            87.75,
+            35.5
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "trajectory_path",
+        "track_id": "TRK_10M_WIND_SPEED_011",
+        "event_type": "extreme_wind",
+        "start_time": "2026-09-25T04:00:00.000000000",
+        "end_time": "2026-09-25T04:00:00.000000000",
+        "total_displacement_km": 0.0,
+        "bearing_degrees": 0.0,
+        "speed_kmh": 0.0,
+        "intensity_change": 0.0,
+        "area_change": 0.0,
+        "confidence": 0.5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRK_POS_TRK_10M_WIND_SPEED_011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.75,
+          35.5
+        ]
+      },
+      "properties": {
+        "feature_type": "current_position",
+        "track_id": "TRK_10M_WIND_SPEED_011",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "peak_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "speed_kmh": 0.0,
+        "bearing_degrees": 0.0
+      }
+    }
+  ]
+}

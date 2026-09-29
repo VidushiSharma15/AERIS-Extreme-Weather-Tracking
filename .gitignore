@@ -1,0 +1,38 @@
+# Virtual Environments & Caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+cache/
+.pytest_cache/
+
+# Node & Frontend Build Artifacts
+node_modules/
+.next/
+out/
+build/
+.env
+.env.*
+*.local
+
+# Data & Large Datasets
+data/raw/
+*.grib2
+*.nc
+*.grb
+*.grib
+*.zip
+*.tar.gz
+
+# Model Checkpoints & Large Weights
+models/checkpoint/
+*.pt
+*.bin
+*.onnx
+
+# System & Temp files
+.DS_Store
+Thumbs.db
+*.log

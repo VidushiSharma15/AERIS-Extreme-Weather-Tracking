@@ -1,0 +1,657 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "system": "SIH26078 AERIS Anomaly Detection Engine",
+    "total_events": 12
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.0,
+              8.0
+            ],
+            [
+              76.5,
+              8.0
+            ],
+            [
+              76.5,
+              13.0
+            ],
+            [
+              72.0,
+              13.0
+            ],
+            [
+              72.0,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_001",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 10.3333,
+          "longitude": 74.0417
+        },
+        "area_km2": 34271.5,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 12,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.5,
+              9.5
+            ],
+            [
+              95.0,
+              9.5
+            ],
+            [
+              95.0,
+              9.5
+            ],
+            [
+              94.5,
+              9.5
+            ],
+            [
+              94.5,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_002",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 9.5,
+          "longitude": 94.75
+        },
+        "area_km2": 5711.92,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": -2.2361,
+        "affected_grid_cells": 2,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0,
+              14.0
+            ],
+            [
+              71.5,
+              14.0
+            ],
+            [
+              71.5,
+              15.5
+            ],
+            [
+              71.0,
+              15.5
+            ],
+            [
+              71.0,
+              14.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_003",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 14.75,
+          "longitude": 71.25
+        },
+        "area_km2": 11423.83,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 4,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.5,
+              16.5
+            ],
+            [
+              70.5,
+              16.5
+            ],
+            [
+              70.5,
+              18.0
+            ],
+            [
+              70.5,
+              18.0
+            ],
+            [
+              70.5,
+              16.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_004",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 17.25,
+          "longitude": 70.5
+        },
+        "area_km2": 11423.83,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 4,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.5,
+              22.5
+            ],
+            [
+              70.5,
+              22.5
+            ],
+            [
+              70.5,
+              23.5
+            ],
+            [
+              70.5,
+              23.5
+            ],
+            [
+              70.5,
+              22.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_005",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 23.0,
+          "longitude": 70.5
+        },
+        "area_km2": 8567.88,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 3,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0,
+              24.5
+            ],
+            [
+              71.0,
+              24.5
+            ],
+            [
+              71.0,
+              25.0
+            ],
+            [
+              71.0,
+              25.0
+            ],
+            [
+              71.0,
+              24.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_006",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 24.75,
+          "longitude": 71.0
+        },
+        "area_km2": 5711.92,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 2,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T000000_010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.5,
+              29.5
+            ],
+            [
+              75.5,
+              29.5
+            ],
+            [
+              75.5,
+              31.5
+            ],
+            [
+              73.5,
+              31.5
+            ],
+            [
+              73.5,
+              29.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T000000_010",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T00:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 30.5,
+          "longitude": 74.5
+        },
+        "area_km2": 14279.79,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 5,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T040000_001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.5,
+              8.0
+            ],
+            [
+              93.0,
+              8.0
+            ],
+            [
+              93.0,
+              8.0
+            ],
+            [
+              92.5,
+              8.0
+            ],
+            [
+              92.5,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T040000_001",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 8.0,
+          "longitude": 92.75
+        },
+        "area_km2": 5711.92,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": -2.2361,
+        "affected_grid_cells": 2,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T040000_005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.5,
+              32.0
+            ],
+            [
+              95.0,
+              32.0
+            ],
+            [
+              95.0,
+              34.5
+            ],
+            [
+              91.5,
+              34.5
+            ],
+            [
+              91.5,
+              32.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T040000_005",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 33.383,
+          "longitude": 93.2319
+        },
+        "area_km2": 42839.38,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 15,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T040000_007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.5,
+              34.5
+            ],
+            [
+              90.5,
+              34.5
+            ],
+            [
+              90.5,
+              35.0
+            ],
+            [
+              89.5,
+              35.0
+            ],
+            [
+              89.5,
+              34.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T040000_007",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 34.7632,
+          "longitude": 90.1303
+        },
+        "area_km2": 11423.83,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 4,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T040000_009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.0,
+              35.5
+            ],
+            [
+              85.0,
+              35.5
+            ],
+            [
+              85.0,
+              35.5
+            ],
+            [
+              84.0,
+              35.5
+            ],
+            [
+              84.0,
+              35.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T040000_009",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 35.5,
+          "longitude": 84.5
+        },
+        "area_km2": 8567.88,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 3,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT_10M_WIND_SPEED_20260925T040000_010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.0,
+              35.5
+            ],
+            [
+              88.5,
+              35.5
+            ],
+            [
+              88.5,
+              35.5
+            ],
+            [
+              87.0,
+              35.5
+            ],
+            [
+              87.0,
+              35.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "event_id": "EVT_10M_WIND_SPEED_20260925T040000_010",
+        "event_type": "extreme_wind",
+        "severity": "WATCH",
+        "timestamp": "2026-09-25T04:00:00.000000000",
+        "variable": "10m_wind_speed",
+        "units": "m/s",
+        "centroid": {
+          "latitude": 35.5,
+          "longitude": 87.75
+        },
+        "area_km2": 11423.83,
+        "max_intensity": 5.0,
+        "mean_intensity": 5.0,
+        "max_z_score": 2.2361,
+        "affected_grid_cells": 4,
+        "source_dataset": "india_weather_sample",
+        "provenance": {
+          "z_threshold": 2.0,
+          "resolution_deg": 0.5,
+          "calculation_method": "ZScoreDetector + 8-Connected Component Region Detection"
+        }
+      }
+    }
+  ]
+}
